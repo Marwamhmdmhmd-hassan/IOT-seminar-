@@ -89,22 +89,85 @@ Control, Aerospace, and Aviation.
 Using  IoT in Retail and Supply Chain management will include monitoring and controlling storage along the supply chain by tracking products for traceability purposes. Moreover,  In the shops, implementing IoT technology will help users in guidance in the shop according to the pre-done shopping list, offering fast payment options solution 
 like automatically check-out using detection of a given product. 
 
+\subsection{Other Applications}
 
+In addition to the three main domains, Internet of Things Strategic Research Agenda (SRA) \cite{SRA} defined more domains related to the various network availability, scale, coverage, and repeatability of user involvement, which in return helps to afford new technology such as smart energy, smart health, smart buildings, smart transport, smart living, and smart cities. Hence, we can categorize the application relevant into six domains: smart home, smart building automation, mobile communication Enterprise, smart business, healthcare, and utilities Figure\ref{Applications} shows the IoT applications and the purpose of each one. 
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=3in]{Applications.png}
+	\caption{\label{Applications}  Applications in IoT  , image source: 
+		Principle Application and Vision in Internet
+		of Things (IoT)\cite{App} }
+\end{figure}
 
 \section{Home Automation}
 
+
+Since the late 70s, the concept of home automation has been taking place. With the increase of technology, people start to expect more of what home automation should provide and how the services will be done. This service has changed over time. The home automation system has always tried to provide a convenient, safe, and efficient way for homeowners to access their houses; despite that, the way to provide that is improved, but the system has remained the same.  
+
+
+From an engineering point of view, Brand\cite{brand} specified a home after breaking it down into the "6 S's", Site, Structure, Skin, Services, space plan, and Stuff. Home automation systems will mainly concern with the last "3 S's, namely Service, Space Plan, and Stuff. A  modern home relies on three to seven services supported by companies like the Internet, gas, electricity, etc. Service provided plays a big role when defining home automation. As an example, the access to wireless communication helped with the "Space Plan" and improved the way how the modern home is like. In addition, homeowners can add or remove tools and equipment in their houses as they wish under the name of "Stuff."
+
+\subsection{Challenges face home Automation }
+
+ In his article \cite{Greichen}John J. Greichen  mentioned some of the early challenges faced by home automation systems, and they include : 
  
-Early home automation  \& now \& IOT home appliances 
-METHODOLOGIES 
-Basic Block Diagram of Home Automation......smart-home controller ?? Alexa ,siri?!
-\\use case 
-challanges 
+ 
+ \begin{itemize}
+ 	\item High manufacturing \& installation costs.
+ \item Additional service and support costs.
+ \item lack of home automation standards.
+ \item Consumer unfamiliarity with the technology \& complex user interfaces. 
+ 	
+ \end{itemize}
 
-\subsection{Smart Plugs}
+Over time, the development has grown very fast that led to a decrease in device size and price, and people are now familiar with using a computer, mobiles, and Laptops. Recently, using a wireless system like controlling devices via remote control or even wireless technology provided more advantages like reducing the installation costs since there is no cabling needed. Furthermore, internet connectivity allows us to control devices from any place via the mobile, and homeowners can add or remove devices easily and built-in the home automation system. 
+
+
+ 
+ \subsection{Different Methodologies }
+ 
+Bluetooth-based home automation system, which R.Piyare proposed and M.Tazil \cite{Tazil} , based on using a  smartphone, any microcontroller board, and Bluetooth technology offered a  secured and low-cost automation system. In this system, the communication between the board and mobile phone is done wirelessly using Bluetooth technology. Through the software application, the user will control the home appliances added to the system. To overcome the security issues and offer a high degree of protection, the system is used a password to allow only authorized users. A disadvantage to this system is the limitation to control the home appliances, as it is only covered within the Bluetooth range. Fig \ref{Blutooth} shows a block diagram of Bluetooth based home automation system. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=3in]{Blutooth.png}
+	\caption{\label{Blutooth}  Block diagram of home automation system 
+		 , image source: An Overview of Home Automation Systems
+		\cite{blutooth} }
+\end{figure}
+
+
+Another methodology is voice recognition-based home automation. The architecture hardware is also a microcontroller and smartphone, using Bluetooth technology to communicate. The new feature is offered via the mobile OS, which has a  built-in voice recognizing, which will allow the user to control the home appliances via voice command. The application transfers the user voice command into text, transmitted via Bluetooth to the microcontroller. A user only needs to pronounce the appliance name in the smartphone microphone and tell it to switch ON or OFF, which will ease the disabled and older people's ability to control all home appliances with no single move. The drawback is that it is not working efficiently in a noisy environment. Figure \ref {voice} shows the block diagram of a voice recognition-based home automation system. 
 
 
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=3in]{voice.png}
+	\caption{\label{voice}  Block diagram of voice recognition-based home automation
+		, image source: An Overview of Home Automation Systems
+		\cite{blutooth} }
+\end{figure}
 
+A real-life application using voice recognition in the home automation space is the smart-home controller Amazon Alexa. It can control several smart appliances and interact with several manufacturers using user's voice .lately; Amazon announced that Alexa can now pair with a Ring doorbell Pro and greet visitors and leave instructions about where to deliver packages.\cite{alexa}.
+
+
+\subsection{Use Case: Smart Plugs}
+
+As a use case to turn home to smart home allowing home automation concept, a smart plug is an electrical device that can be plugged into an ordinary outlet that can turn wired appliances into a controlled device in which the user will be able to control it by a mobile phone or voice command from anywhere. It is designed to connect the plug to the Wi-Fi home network. As a second step, the user needs to install the plug Application on his smart device to be able to control the electronic device plugged into the smart plug over the Internet. \cite{plug}. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=2.5in]{plug.png}
+	\caption{\label{plug}  Edimax plug and iPad installed with the control application.
+		, image source: A Case Study of the Smart Plug System
+		\cite{plug} }
+\end{figure}
+
+As an example of a smart plug Fig .\ref{plug} shows  Edimax SP-2101W smart plug connected with iPad as a controller tool. The plug can also help manage the energy consumption by allowing the user to observe the power usage. Moreover, the user can set a schedule with the time of turning on and off the device. The user needs to enter a username and password to assure more safety and security to access the plug and the attached device. Another feature is the user can add the email address and mobile number so that the plug can send an SOS message or email to alert the user in critical situations. 
 
 
 \section{Building  Automation }
@@ -125,16 +188,28 @@ challanges
 
 \begin{thebibliography}{00}
 	
-	\bibitem{discovery}Zaslavsky, A., \& Jayaraman, P. P. (2015). Discovery in the Internet of Things. Ubiquity, 2015, 1-10.
-	
+		\bibitem{discovery}Zaslavsky, A., \& Jayaraman, P. P. (2015). Discovery in the Internet of Things. Ubiquity, 2015, 1-10.
  
  \bibitem {RFID}D. Guinard, V. Trifa, and E. Wilde, “A resource oriented architecture for the web of things,” in Proceedings of the 2nd International Internet of Things Conference (IoT ’10), pp. 9–129,
  December 2010.
- 
  \bibitem{SRA}Tarkoma, S., \& Katasonov, A. (2011). Internet of things strategic research agenda (IoT–SRA). Finnish Strategic Centre for Science, Technology, and Innovation: For Information and Communications (ICT) Services, Businesses, and Technologies, Finland.
  
  \bibitem{azori}Atzori, L., Iera, A., \& Morabito, G. (2010). The internet of things: A survey. Computer networks, 54(15), 2787-2805.
  
+ \bibitem{App}Asghar, M. H., Negi, A., \& Mohammadzadeh, N. (2015, May). Principle application and vision in Internet of Things (IoT). In International Conference on Computing, Communication \& Automation (pp. 427-431). IEEE.
+ 
+ \bibitem{brand}Brand, S, How Buildings Learn, New York, Viking, 1994. 
+ 
+ \bibitem{Greichen}Greichen, J.J., “Value based home automation or today's market,” IEEE Transactions on Consumer Electronics, vol. 38, no. 3, pp.34-38, Aug. 1992
+ 
+ \bibitem{Tazil}R. Piyare and M. Tazil, "Bluetooth based home automation system using cell phone," Consumer Electronics (ISCE), 2011 IEEE 15th
+International Symposium on, Singapore, 2011, pp. 192-195.
+
+\bibitem{blutooth} M. Asadullah and A. Raza, "An overview of home automation systems," 2016 2nd International Conference on Robotics and Artificial Intelligence (ICRAI), 2016, pp. 27-31, doi: 10.1109/ICRAI.2016.7791223.
+
+\bibitem{alexa} Clark, Mitchell (February 11, 2021). "Alexa can now greet people from your Ring Doorbell Pro". theverge.com. Retrieved February 12, 2021.
+
+\bibitem{plug}Ling, Z., Luo, J., Xu, Y., Gao, C., Wu, K., \& Fu, X. (2017). Security vulnerabilities of internet of things: A case study of the smart plug system. IEEE Internet of Things Journal, 4(6), 1899-1909.
 
 \end{thebibliography}
 
