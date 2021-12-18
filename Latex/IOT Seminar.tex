@@ -104,7 +104,6 @@ In addition to the three main domains, Internet of Things Strategic Research Age
 
 \section{Home Automation}
 
-
 Since the late 70s, the concept of home automation has been taking place. With the increase of technology, people start to expect more of what home automation should provide and how the services will be done. This service has changed over time. The home automation system has always tried to provide a convenient, safe, and efficient way for homeowners to access their houses; despite that, the way to provide that is improved, but the system has remained the same.  
 
 
@@ -172,12 +171,52 @@ As an example of a smart plug Fig .\ref{plug} shows  Edimax SP-2101W smart plug 
 
 \section{Building  Automation }
 
-Early control systems \& today control and automation \\ IOT change \\
+Traditionally, building automation starts with controlling electrical, mechanical, and plumbing systems within the building,e.g., heating, ventilation, air-conditioning, HVAC systems, lightning,  Close circuit video (CCTV), Fire alarm system...etc. Considering HVAC systems as the primary energy consumer in any building, operating and controlling these systems will affect the energy and cost.
 
-Building automation model
-challanges 
+\subsection{Building's Control Systems}
 
-\subsection{smart buldings}
+Before 1980 the control system was pneumatic based; despite that, it had some limitations to cover and control all the HVAC systems, it was widely used in a majority of existing buildings. By the 80s started the Analog electronic control devices spread, as they gave faster response and accurate results than pneumatics. In the 90s, the digital control device came on the market, then the whole function automation system was possible; what was not possible was mixing products from different vendors and manufacturers as they were not capable. The late 90s solved this issue as the were too many efforts to standardize one communication protocol. Finally, the American Society of Heating, Refrigerating and Air-conditioning Engineers (ASHRAE) implemented t the BACnet communication protocol, which became the industry open standard.\cite{control}
+
+ Nowadays, the need to improve the operation and control of HVAC systems; most buildings are equipped with wide building automation systems (BASs) and building energy management control systems (EMCSs) to provide indoor comfort and a healthy environment and allow the automatic control of indoor conditions. In addition, the main aim of building automation systems is to achieve maximum savings in Energy and reduce the cost of maintenance by allowing access to all building services within the system.
+
+The building's automation system is mainly hardware devices attached to devices or laying underfloor or even in the ceiling, where some customize control can be made. From a central management point of view, the BAS resides as software on an operator workstation (computer) or is available as a web page. Various types of "controllers" manage equipment and portions of the network. "Sensors" provide input data to the controllers.\cite{control}, The Fig. \ref{BAS} shows an overview of buildings' automation systems from soft and hardware perspectives. 
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=3in]{BAS.png}
+	\caption{\label{BAS}  Building automation system overview
+		, image source: Understanding Building Automation and Control Systems
+		\cite{control} }
+\end{figure}
+
+Furthermore, BMS systems extended to include controlling other outdoor functions like control and allowing the accessibility of the main building's door, the elevators and escalators control, security system, and fire detecting. 
+ 
+ \subsection{IoT and buildings automation }
+ 
+ IoT technology plays a significant role in transferring buildings to smart buildings. The main goal of turning buildings smart is to increase comfort by allowing a variety of services added to the building. The system's responsibility is to transfer the building to smart by adding a brain to it; this brain will then handle any human error or other natural disasters. In addition, having an energy-efficient solution and a friendly environment are other goals to be achieved by applying smart building technology. 
+
+\subsection{Case study : smart buldings}
+
+
+
+The Institute for Building Efficiency [8] defines smart buildings
+as the buildings that can provide low cost services such
+as air conditioning, heating, ventilation, illumination, security,
+sanitation and various other services to the tenants without
+adversely affecting the environment.
+
+For example, once a tenant
+enters an enterprise the temperature, humidity and the lighting
+are adjusted according to his personalized levels of comfort,
+his computer and the corresponding applications are turned on
+[6]. At the same time, the interconnection of the automation
+systems can assist with the disaster management and provide
+emergency services. For example, the fire sensors can alert
+the ventilation system to turn of the fans hence the smoke and
+the fire can be contained in a specific area. The damages in
+the attack on Pentagon in 2001 were reduced thanks to the
+advanced automation system (smart building) [6].
 
 \section{Evaluation \& Future work   }
 
@@ -188,28 +227,30 @@ challanges
 
 \begin{thebibliography}{00}
 	
-		\bibitem{discovery}Zaslavsky, A., \& Jayaraman, P. P. (2015). Discovery in the Internet of Things. Ubiquity, 2015, 1-10.
+\bibitem{discovery}Zaslavsky, A., \& Jayaraman, P. P. (2015). Discovery in the Internet of Things. 
  
- \bibitem {RFID}D. Guinard, V. Trifa, and E. Wilde, “A resource oriented architecture for the web of things,” in Proceedings of the 2nd International Internet of Things Conference (IoT ’10), pp. 9–129,
- December 2010.
+ \bibitem {RFID}D. Guinard, V. Trifa, and E. Wilde,( 2010) “A resource oriented architecture for the web of things,” in Proceedings of the 2nd International Internet of Things Conference (IoT ’10)
+.
  \bibitem{SRA}Tarkoma, S., \& Katasonov, A. (2011). Internet of things strategic research agenda (IoT–SRA). Finnish Strategic Centre for Science, Technology, and Innovation: For Information and Communications (ICT) Services, Businesses, and Technologies, Finland.
  
- \bibitem{azori}Atzori, L., Iera, A., \& Morabito, G. (2010). The internet of things: A survey. Computer networks, 54(15), 2787-2805.
+ \bibitem{azori}Atzori, L., Iera, A., \& Morabito, G. (2010). The internet of things: A survey. Computer networks.
  
- \bibitem{App}Asghar, M. H., Negi, A., \& Mohammadzadeh, N. (2015, May). Principle application and vision in Internet of Things (IoT). In International Conference on Computing, Communication \& Automation (pp. 427-431). IEEE.
+ \bibitem{App}Asghar, M. H., Negi, A., \& Mohammadzadeh, N. (2015, May). Principle application and vision in Internet of Things (IoT). In International Conference on Computing, Communication \& Automation .
  
  \bibitem{brand}Brand, S, How Buildings Learn, New York, Viking, 1994. 
  
- \bibitem{Greichen}Greichen, J.J., “Value based home automation or today's market,” IEEE Transactions on Consumer Electronics, vol. 38, no. 3, pp.34-38, Aug. 1992
+ \bibitem{Greichen}Greichen, J.J., “Value based home automation or today's market,” IEEE Transactions on Consumer Electronics.
  
  \bibitem{Tazil}R. Piyare and M. Tazil, "Bluetooth based home automation system using cell phone," Consumer Electronics (ISCE), 2011 IEEE 15th
-International Symposium on, Singapore, 2011, pp. 192-195.
+International Symposium on, Singapore.
 
-\bibitem{blutooth} M. Asadullah and A. Raza, "An overview of home automation systems," 2016 2nd International Conference on Robotics and Artificial Intelligence (ICRAI), 2016, pp. 27-31, doi: 10.1109/ICRAI.2016.7791223.
+\bibitem{blutooth} M. Asadullah and A. Raza, "An overview of home automation systems," 2016 2nd International Conference on Robotics and Artificial Intelligence (ICRAI).
 
 \bibitem{alexa} Clark, Mitchell (February 11, 2021). "Alexa can now greet people from your Ring Doorbell Pro". theverge.com. Retrieved February 12, 2021.
 
-\bibitem{plug}Ling, Z., Luo, J., Xu, Y., Gao, C., Wu, K., \& Fu, X. (2017). Security vulnerabilities of internet of things: A case study of the smart plug system. IEEE Internet of Things Journal, 4(6), 1899-1909.
+\bibitem{plug}Ling, Z., Luo, J., Xu, Y., Gao, C., Wu, K., \& Fu, X. (2017). Security vulnerabilities of internet of things: A case study of the smart plug system. IEEE Internet of Things Journal.
+
+\bibitem{control}KMC Controls.(May 2013) "Understanding Building Automation and Control Systems". 
 
 \end{thebibliography}
 
