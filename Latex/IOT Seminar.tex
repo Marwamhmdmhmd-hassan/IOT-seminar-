@@ -182,6 +182,7 @@ Before 1980 the control system was pneumatic based; despite that, it had some li
 The building's automation system is mainly hardware devices attached to devices or laying underfloor or even in the ceiling, where some customize control can be made. From a central management point of view, the BAS resides as software on an operator workstation (computer) or is available as a web page. Various types of "controllers" manage equipment and portions of the network. "Sensors" provide input data to the controllers.\cite{control}, The Fig. \ref{BAS} shows an overview of buildings' automation systems from soft and hardware perspectives. 
 
 
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=3in]{BAS.png}
@@ -194,29 +195,35 @@ Furthermore, BMS systems extended to include controlling other outdoor functions
  
  \subsection{IoT and buildings automation }
  
- IoT technology plays a significant role in transferring buildings to smart buildings. The main goal of turning buildings smart is to increase comfort by allowing a variety of services added to the building. The system's responsibility is to transfer the building to smart by adding a brain to it; this brain will then handle any human error or other natural disasters. In addition, having an energy-efficient solution and a friendly environment are other goals to be achieved by applying smart building technology. 
+
+ The main aim of IoT technology is the integration of diverse physical objects into a global network, where all information about this object is presented on the internet, allowing interaction with and between this object ..Allowing access to the objects is already considered by the BAS concept by providing a virtual representation of this objects, e.g., sensors, control devices, actuators ...etc. BAS works within the local context of a functional building by linking both field tiers, sensors, and actuators, with an automation tire containing all control devices. The information then can be combined at the management tier. Fig . \ref{new }shows how BAS works. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=2.5in]{newIOt.png}
+	\caption{\label{new}  BAS  model
+		, image source: Integrating Building Automation Systems and IPv6
+in the Internet of Things
+		\cite{NewIOT} }
+\end{figure}
+
+
+
+IoT's addition to the BAS system is crossing this local definition of borders since building automation already has a virtual representation on the Internet. It will then enable direct interaction with all things and services. When the building automation device is accessible on the Internet, that will add several features to building automation's traditional method. For example, considering the energy efficiency in the building, in functional building\cite{NewIOT}, energy can be saved by shifting energy consumption of HVAC devices to times when there is a lot of renewable energy available or when the electric grid is not overloaded. 
+
+
+It is integrating the IoT in building automation help in energy saving scenario. As an example\cite{NewIOT}, if we have a conference center, a building that includes many rooms and halls, which need to adjust the HVAC system according to the occupancy of it, other parameters can be added like the external temperature, Numbers of people in the room and the sessions schedules at that time. To achieve better control of this building, we need to determine the exa exact occupancy of people in real-time and adjust the control parameters accordingly, including any change of schedule. Accessing all this data requires a global interaction on the internet via the cloud, which IoT can do. Applying this will save a massive amount of cooling and heating energy in the room that will not be occupied in this conference center. 
+
+
+
 
 \subsection{Case study : smart buldings}
+IoT technology plays a significant role in transferring buildings to smart buildings. The main goal of turning buildings smart is to increase comfort by allowing a variety of services added to the building. The system's responsibility is to transfer the building to smart by adding a brain to it; this brain will then handle any human error or other natural disasters. In addition, having an energy-efficient solution and a friendly environment are other goals to be achieved by applying smart building technology. 
 
 
+\subsection{Challanges}
 
-The Institute for Building Efficiency [8] defines smart buildings
-as the buildings that can provide low cost services such
-as air conditioning, heating, ventilation, illumination, security,
-sanitation and various other services to the tenants without
-adversely affecting the environment.
 
-For example, once a tenant
-enters an enterprise the temperature, humidity and the lighting
-are adjusted according to his personalized levels of comfort,
-his computer and the corresponding applications are turned on
-[6]. At the same time, the interconnection of the automation
-systems can assist with the disaster management and provide
-emergency services. For example, the fire sensors can alert
-the ventilation system to turn of the fans hence the smoke and
-the fire can be contained in a specific area. The damages in
-the attack on Pentagon in 2001 were reduced thanks to the
-advanced automation system (smart building) [6].
 
 \section{Evaluation \& Future work   }
 
@@ -251,6 +258,9 @@ International Symposium on, Singapore.
 \bibitem{plug}Ling, Z., Luo, J., Xu, Y., Gao, C., Wu, K., \& Fu, X. (2017). Security vulnerabilities of internet of things: A case study of the smart plug system. IEEE Internet of Things Journal.
 
 \bibitem{control}KMC Controls.(May 2013) "Understanding Building Automation and Control Systems". 
+
+\bibitem{NewIOT} Jung, M., Reinisch, C., \& Kastner, W. (2012, July). Integrating building automation systems and ipv6 in the internet of things. In 2012 Sixth International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing (pp. 683-688). IEEE.
+
 
 \end{thebibliography}
 
