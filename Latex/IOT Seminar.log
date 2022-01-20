@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.26)  22 DEC 2021 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.26)  17 JAN 2022 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,13 +291,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -309,7 +309,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Applications.png, id=11, 447.6725pt x 303.1325pt>
 File: Applications.png Graphic file (type png)
 <use Applications.png>
-Package pdftex.def Info: Applications.png  used on input line 97.
+Package pdftex.def Info: Applications.png  used on input line 98.
 (pdftex.def)             Requested size: 216.81pt x 146.81094pt.
 
 
@@ -319,105 +319,84 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Blutooth.png, id=17, 474.77374pt x 167.62625pt>
 File: Blutooth.png Graphic file (type png)
 <use Blutooth.png>
-Package pdftex.def Info: Blutooth.png  used on input line 133.
+Package pdftex.def Info: Blutooth.png  used on input line 134.
 (pdftex.def)             Requested size: 216.81pt x 76.54884pt.
 <voice.png, id=18, 494.84875pt x 279.0425pt>
 File: voice.png Graphic file (type png)
 <use voice.png>
-Package pdftex.def Info: voice.png  used on input line 146.
+Package pdftex.def Info: voice.png  used on input line 148.
 (pdftex.def)             Requested size: 216.81pt x 122.25536pt.
 <plug.png, id=19, 258.9675pt x 299.1175pt>
 File: plug.png Graphic file (type png)
 <use plug.png>
-Package pdftex.def Info: plug.png  used on input line 161.
+Package pdftex.def Info: plug.png  used on input line 165.
 (pdftex.def)             Requested size: 180.67499pt x 208.69618pt.
  [3 <./Blutooth.png> <./voice.png> <./plug.png>]
 <BAS.png, id=26, 687.56876pt x 407.5225pt>
 File: BAS.png Graphic file (type png)
 <use BAS.png>
-Package pdftex.def Info: BAS.png  used on input line 186.
+Package pdftex.def Info: BAS.png  used on input line 190.
 (pdftex.def)             Requested size: 216.81pt x 128.50084pt.
 <newIOt.png, id=27, 419.5675pt x 241.90375pt>
 File: newIOt.png Graphic file (type png)
 <use newIOt.png>
-Package pdftex.def Info: newIOt.png  used on input line 201.
+Package pdftex.def Info: newIOt.png  used on input line 205.
 (pdftex.def)             Requested size: 180.67499pt x 104.16791pt.
 
 [4 <./BAS.png> <./newIOt.png>]
 <charsb.png, id=32, 1034.86626pt x 409.53pt>
 File: charsb.png Graphic file (type png)
 <use charsb.png>
-Package pdftex.def Info: charsb.png  used on input line 228.
+Package pdftex.def Info: charsb.png  used on input line 234.
 (pdftex.def)             Requested size: 252.94499pt x 100.09514pt.
 
-Overfull \hbox (0.94499pt too wide) in paragraph at lines 228--233
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 234--239
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 247--250
+Underfull \hbox (badness 3612) in paragraph at lines 254--257
 \OT1/ptm/m/n/10 Dealing with dif-fer-ent de-vices, pro-to-cols, ven-dors,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--250
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 252--255
+Underfull \hbox (badness 2538) in paragraph at lines 259--262
 \OT1/ptm/m/n/10 Allowing the sys-tem to use users' data for only
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+[5 <./charsb.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 []\OT1/ptm/m/n/8 Wikimedia Foun-da-tion. (2021, De-cem-ber 21). Ama-zon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/ptm/m/n/8 alexa. Wikipedia. Re-trieved De-cem-ber 21, 2021, from
- []
-
-[5 <./charsb.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-[]\OT1/ptm/m/n/8 Art Hicks, web-mas-ter@kmccontrols.com. (n.d.). Un-der-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-\OT1/ptm/m/n/8 stand-ing build-ing au-toma-tion and con-trol sys-tems -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-\OT1/ptm/m/n/8 KMC con-trols. Re-trieved De-cem-ber 21, 2021, from
- []
-
-
-Overfull \hbox (114.26064pt too wide) in paragraph at lines 329--330
-\OT1/ptm/m/n/8 http://www.kmccontrols.com.hk/products/Understanding[]Building[]
-Automation[]and[]Control[]Systems.html 
  []
 
 
@@ -435,20 +414,20 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./IOT Seminar.aux) ) 
 Here is how much of TeX's memory you used:
- 3873 strings out of 480608
- 55473 string characters out of 5903630
- 305256 words of memory out of 5000000
- 19739 multiletter control sequences out of 15000+600000
+ 3884 strings out of 480608
+ 55544 string characters out of 5903630
+ 305300 words of memory out of 5000000
+ 19750 multiletter control sequences out of 15000+600000
  563404 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,37p,987b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,37p,980b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base
 /8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IOT Seminar.pdf" (6 pages, 515633 bytes).
+Output written on "IOT Seminar.pdf" (6 pages, 515789 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
